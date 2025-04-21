@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Webexam Automation">
+      <listeners>
+<listener class-name="extentReports.TestListener" />
+</listeners>
+	<parameter name="studentUserName" value="testerlaborga@gmail.com" />
+	<parameter name="studentPassword" value="Buy12345/" />
+	<parameter name="adminUserName" value="examadmin@gmail.com" />
+	<parameter name="adminPassword" value="Admin@123" />
+	<parameter name="browser" value="chrome" />
+	<test thread-count="5" name="Test flow 1">
+		<classes>
+		<class name="projectBase.Base"></class>
+			
+		<class name="questions.QuestionsCases"></class>	
+		
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

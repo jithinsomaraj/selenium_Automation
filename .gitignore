@@ -1,0 +1,11 @@
+/target/
+/test-output
+/testng_harin.xml
+debug.log
+testng_jithin.xml
+amal.xml
+src/main/resources/TestImage/image1.jpg
+src/main/resources/Drivers/Chromedriver/chromedriver4.exe
+src/main/java/rnD/XamPlanner.java
+src/main/resources/ExcelFiles/~$WebExam Test Data.xlsx
+src/main/resources/Images/Harin.jpg
